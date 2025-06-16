@@ -1,0 +1,225 @@
+{
+  "status": "success",
+  "result": [
+    {
+      "id": 1,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": null,
+      "publicReview": "Clean and comfortable place!",
+      "reviewCategory": [
+        {
+          "category": "cleanliness",
+          "rating": 9
+        },
+        {
+          "category": "communication",
+          "rating": 10
+        }
+      ],
+      "submittedAt": "2024-06-01 10:00:00",
+      "guestName": "Alice",
+      "listingName": "London Bridge Apartment",
+      "channel": "Airbnb",
+      "isApproved": true
+    },
+    {
+      "id": 2,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 8,
+      "publicReview": "Nice apartment but the check-in was a bit delayed.",
+      "reviewCategory": [
+        {
+          "category": "cleanliness",
+          "rating": 8
+        },
+        {
+          "category": "communication",
+          "rating": 7
+        }
+      ],
+      "submittedAt": "2024-06-02 14:30:00",
+      "guestName": "Ben",
+      "listingName": "London Bridge Apartment",
+      "channel": "Booking.com",
+      "isApproved": false
+    },
+    {
+      "id": 3,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 9,
+      "publicReview": "Modern interior and quiet at night.",
+      "reviewCategory": [
+        {
+          "category": "cleanliness",
+          "rating": 9
+        },
+        {
+          "category": "communication",
+          "rating": 9
+        }
+      ],
+      "submittedAt": "2024-06-03 18:15:00",
+      "guestName": "Carla",
+      "listingName": "Tower Bridge Retreat",
+      "channel": "VRBO",
+      "isApproved": false
+    },
+    {
+      "id": 4,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": null,
+      "publicReview": "Carla was respectful and tidy. Would host again!",
+      "reviewCategory": [
+        {
+          "category": "cleanliness",
+          "rating": 10
+        },
+        {
+          "category": "respect_house_rules",
+          "rating": 10
+        }
+      ],
+      "submittedAt": "2024-06-04 11:45:00",
+      "guestName": "Carla",
+      "listingName": "Tower Bridge Retreat",
+      "channel": "Airbnb",
+      "isApproved": true
+    },
+    {
+      "id": 5,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 7,
+      "publicReview": "There was some noise outside, but the host was responsive.",
+      "reviewCategory": [
+        {
+          "category": "cleanliness",
+          "rating": 7
+        },
+        {
+          "category": "communication",
+          "rating": 9
+        }
+      ],
+      "submittedAt": "2024-06-05 09:20:00",
+      "guestName": "David",
+      "listingName": "Camden Cozy Flat",
+      "channel": "Booking.com",
+      "isApproved": true
+    },
+    {
+      "id": 6,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 10,
+      "publicReview": "Absolutely amazing stay. Super clean and great check-in instructions.",
+      "reviewCategory": [
+        {
+          "category": "cleanliness",
+          "rating": 10
+        },
+        {
+          "category": "communication",
+          "rating": 10
+        }
+      ],
+      "submittedAt": "2024-06-06 16:40:00",
+      "guestName": "Ella",
+      "listingName": "Shoreditch Studio",
+      "channel": "VRBO",
+      "isApproved": false
+    },
+    {
+      "id": 7,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": null,
+      "publicReview": "Ella followed all house rules and left the flat spotless.",
+      "reviewCategory": [
+        {
+          "category": "cleanliness",
+          "rating": 10
+        },
+        {
+          "category": "respect_house_rules",
+          "rating": 10
+        }
+      ],
+      "submittedAt": "2024-06-06 20:00:00",
+      "guestName": "Ella",
+      "listingName": "Shoreditch Studio",
+      "channel": "Airbnb",
+      "isApproved": true
+    },
+    {
+      "id": 8,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 6,
+      "publicReview": "Some cleanliness issues, but okay overall.",
+      "reviewCategory": [
+        {
+          "category": "cleanliness",
+          "rating": 6
+        },
+        {
+          "category": "communication",
+          "rating": 8
+        }
+      ],
+      "submittedAt": "2024-06-07 12:10:00",
+      "guestName": "Felix",
+      "listingName": "Camden Cozy Flat",
+      "channel": "Booking.com",
+      "isApproved": false
+    },
+    {
+      "id": 9,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 9,
+      "publicReview": "Bright, stylish flat near King's Cross. Very convenient.",
+      "reviewCategory": [
+        {
+          "category": "cleanliness",
+          "rating": 9
+        },
+        {
+          "category": "communication",
+          "rating": 9
+        }
+      ],
+      "submittedAt": "2024-06-08 08:30:00",
+      "guestName": "Grace",
+      "listingName": "King's Cross Comfort",
+      "channel": "VRBO",
+      "isApproved": true
+    },
+    {
+      "id": 10,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": null,
+      "publicReview": "Grace was a wonderful guest with great communication.",
+      "reviewCategory": [
+        {
+          "category": "communication",
+          "rating": 10
+        },
+        {
+          "category": "respect_house_rules",
+          "rating": 10
+        }
+      ],
+      "submittedAt": "2024-06-08 10:15:00",
+      "guestName": "Grace",
+      "listingName": "King's Cross Comfort",
+      "channel": "Airbnb",
+      "isApproved": false
+    }
+  ]
+}
