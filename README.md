@@ -32,29 +32,29 @@ An interactive dashboard to visualize and analyze guest reviews across FlexLivin
 
 1) **Clone the repository:**
 
-   git clone https://github.com/Mrutyunjay09/flexliving-reviews-dashboard.git
-   cd flexliving-reviews-dashboard
-   npm install
+git clone https://github.com/Mrutyunjay09/flexliving-reviews-dashboard.git
+cd flexliving-reviews-dashboard
+npm install
 
 2) Run the App:
 
- • Start the Frontend (Client)
+• Start the Frontend (Client)
 
-   In one terminal, navigate to the client directory and run:
+In one terminal, navigate to the client directory and run:
 
-   cd client
-   npm start
+cd client
+npm start
    
-   This runs the frontend React application at http://localhost:3000.
+This runs the frontend React application at http://localhost:3000.
 
- • Start the Backend (Server)
+• Start the Backend (Server)
 
-   In a second terminal, navigate to the server directory and run:
+In a second terminal, navigate to the server directory and run:
 
-   cd server
-   node index.js
+cd server
+node index.js
    
-   This starts the Express backend server at http://localhost:3000.
+This starts the Express backend server at http://localhost:3000.
 
 📂 Project Structure
 
@@ -72,34 +72,34 @@ An interactive dashboard to visualize and analyze guest reviews across FlexLivin
 
 📈 Insights Example
 
- • Track guest satisfaction across cities
- • Identify recurring complaints
- • Highlight high-performing properties
- • Easily toggle views with intuitive filters
+• Track guest satisfaction across cities
+• Identify recurring complaints
+• Highlight high-performing properties
+• Easily toggle views with intuitive filters
 
 🎯 Assessment Goals Fulfilled
 
- • UI mimics FlexLiving
- • Filtering, sorting, and date range support
- • Per-property insights
- • Channel-based (where data allows) filtering
- • Polished design with responsive layout
- • Easy setup and local run instructions
+• UI mimics FlexLiving
+• Filtering, sorting, and date range support
+• Per-property insights
+• Channel-based (where data allows) filtering
+• Polished design with responsive layout
+• Easy setup and local run instructions
 
 🧪 Test Cases & Future Improvements
 
- 1) Basic Tests
+1) Basic Tests
    
- • Component rendering
- • Filtering functionality
- • Chart updates
+• Component rendering
+• Filtering functionality
+• Chart updates
 
- 2) Future Improvements
+2) Future Improvements
    
- • Add authentication for internal access
- • Real-time data syncing with backend
- • Sortable columns and advanced analytics
- • Channel field enrichment (if added to dataset)
+• Add authentication for internal access
+• Real-time data syncing with backend
+• Sortable columns and advanced analytics
+• Channel field enrichment (if added to dataset)
 
 🙌 Author
 Mrutyunjaysinh Vaghela - https://www.linkedin.com/in/vaghelam05/
