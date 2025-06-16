@@ -30,77 +30,76 @@ An interactive dashboard to visualize and analyze guest reviews across FlexLivin
 
 ### Installation
 
-```bash
-git clone https://github.com/your-username/flexliving-dashboard.git
-cd flexliving-dashboard
-npm install
-```
+1) **Clone the repository:**
 
-### Run the App
+   git clone https://github.com/Mrutyunjay09/flexliving-reviews-dashboard.git
+   cd flexliving-reviews-dashboard
+   npm install
 
-```bash
-npm run dev
-```
+2) Run the App:
 
-This runs both the frontend and backend on `http://localhost:5173` and `http://localhost:3000`.
+ • Start the Frontend (Client)
 
-## 📂 Project Structure
+   In one terminal, navigate to the client directory and run:
 
-```bash
+   cd client
+   npm start
+   
+   This runs the frontend React application at http://localhost:3000.
+
+ • Start the Backend (Server)
+
+   In a second terminal, navigate to the server directory and run:
+
+   cd server
+   node index.js
+   
+   This starts the Express backend server at http://localhost:3000.
+
+📂 Project Structure
+
 /
-├── backend/            # Express server
-│   └── mockData.json   # Review data
-├── src/
-│   ├── components/     # UI components
-│   ├── pages/          # Dashboard & PropertyPage
-│   ├── utils/          # Helper functions
+├── server/            # Express server
+│   └── mockData.json  # Review data
+├── client/            # React frontend
+│   ├── components/    # UI components
+│   ├── pages/         # Dashboard & PropertyPage
+│   ├── utils/         # Helper functions
 │   └── App.jsx
 ├── public/
 ├── layout.jsx
 └── README.md
-```
 
-## 📷 Screenshots
+📈 Insights Example
 
-![Dashboard Overview](./screenshots/dashboard.png)
-![Property Page](./screenshots/property.png)
+ • Track guest satisfaction across cities
+ • Identify recurring complaints
+ • Highlight high-performing properties
+ • Easily toggle views with intuitive filters
 
-## 📈 Insights Example
+🎯 Assessment Goals Fulfilled
 
-- Track guest satisfaction across cities
-- Identify recurring complaints
-- Highlight high-performing properties
-- Easily toggle views with intuitive filters
+ • UI mimics FlexLiving
+ • Filtering, sorting, and date range support
+ • Per-property insights
+ • Channel-based (where data allows) filtering
+ • Polished design with responsive layout
+ • Easy setup and local run instructions
 
-## 🎯 Assessment Goals Fulfilled
+🧪 Test Cases & Future Improvements
 
-✅ UI mimics FlexLiving  
-✅ Filtering, sorting, and date range support  
-✅ Per-property insights  
-✅ Channel-based (where data allows) filtering  
-✅ Polished design with responsive layout  
-✅ Easy setup and local run instructions
+ 1) Basic Tests
+   
+ • Component rendering
+ • Filtering functionality
+ • Chart updates
 
-## 🔧 Deployment
+ 2) Future Improvements
+   
+ • Add authentication for internal access
+ • Real-time data syncing with backend
+ • Sortable columns and advanced analytics
+ • Channel field enrichment (if added to dataset)
 
-Deployed on **Vercel**: [https://flexliving-dashboard.vercel.app](https://flexliving-dashboard.vercel.app)  
-(Replace this with your actual deployed URL)
-
-## 🧪 Test Cases & Future Improvements
-
-### ✅ Basic Tests
-
-- Component rendering
-- Filtering functionality
-- Chart updates
-
-### 🔮 Future Improvements
-
-- Add authentication for internal access
-- Real-time data syncing with backend
-- Sortable columns and advanced analytics
-- Channel field enrichment (if added to dataset)
-
-## 🙌 Author
-
-Saad Kadri – [LinkedIn](https://www.linkedin.com/in/saadkadri) | [Portfolio](https://your-portfolio.com)
+🙌 Author
+Mrutyunjaysinh Vaghela - https://www.linkedin.com/in/vaghelam05/
