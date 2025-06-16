@@ -30,34 +30,39 @@ An interactive dashboard to visualize and analyze guest reviews across FlexLivin
 
 ### Installation
 
-1) **Clone the repository:**
-
+```bash
 git clone https://github.com/Mrutyunjay09/flexliving-reviews-dashboard.git
 cd flexliving-reviews-dashboard
 npm install
+```
 
-2) Run the App:
+### Run the App
 
-• Start the Frontend (Client)
+#### Start the Frontend (Client)
 
-In one terminal, navigate to the client directory and run:
+In one terminal, navigate to the `client` directory and run:
 
+```bash
 cd client
 npm start
-   
-This runs the frontend React application at http://localhost:3000.
+```
 
-• Start the Backend (Server)
+This runs the frontend React application at `http://localhost:3000`.
 
-In a second terminal, navigate to the server directory and run:
+#### Start the Backend (Server)
 
+In a second terminal, navigate to the `server` directory and run:
+
+```bash
 cd server
 node index.js
-   
-This starts the Express backend server at http://localhost:3000.
+```
 
-📂 Project Structure
+This starts the Express backend server at `http://localhost:3000`.
 
+## 📂 Project Structure
+
+```bash
 /
 ├── server/            # Express server
 │   └── mockData.json  # Review data
@@ -69,37 +74,39 @@ This starts the Express backend server at http://localhost:3000.
 ├── public/
 ├── layout.jsx
 └── README.md
+```
 
-📈 Insights Example
+## 📈 Insights Example
 
-• Track guest satisfaction across cities
-• Identify recurring complaints
-• Highlight high-performing properties
-• Easily toggle views with intuitive filters
+- Track guest satisfaction across cities
+- Identify recurring complaints
+- Highlight high-performing properties
+- Easily toggle views with intuitive filters
 
-🎯 Assessment Goals Fulfilled
+## 🎯 Assessment Goals Fulfilled
 
-• UI mimics FlexLiving
-• Filtering, sorting, and date range support
-• Per-property insights
-• Channel-based (where data allows) filtering
-• Polished design with responsive layout
-• Easy setup and local run instructions
+✅ UI mimics FlexLiving  
+✅ Filtering, sorting, and date range support  
+✅ Per-property insights  
+✅ Channel-based (where data allows) filtering  
+✅ Polished design with responsive layout  
+✅ Easy setup and local run instructions
 
-🧪 Test Cases & Future Improvements
+## 🧪 Test Cases & Future Improvements
 
-1) Basic Tests
-   
-• Component rendering
-• Filtering functionality
-• Chart updates
+### ✅ Basic Tests
 
-2) Future Improvements
-   
-• Add authentication for internal access
-• Real-time data syncing with backend
-• Sortable columns and advanced analytics
-• Channel field enrichment (if added to dataset)
+- Component rendering
+- Filtering functionality
+- Chart updates
 
-🙌 Author
-Mrutyunjaysinh Vaghela - https://www.linkedin.com/in/vaghelam05/
+### 🔮 Future Improvements
+
+- Add authentication for internal access
+- Real-time data syncing with backend
+- Sortable columns and advanced analytics
+- Channel field enrichment (if added to dataset)
+
+## 🙌 Author
+
+Mrutyunjaysinh Vaghela – [LinkedIn](https://www.linkedin.com/in/vaghelam05/)
