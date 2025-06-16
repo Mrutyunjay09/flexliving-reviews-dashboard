@@ -58,7 +58,7 @@ cd server
 node index.js
 ```
 
-This starts the Express backend server at `http://localhost:3000`.
+This starts the Express backend server at `http://localhost:5000`.
 
 ## 📂 Project Structure
 
